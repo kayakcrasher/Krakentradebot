@@ -1,0 +1,12 @@
+{
+  "name": "lugus",
+  "private": true,
+  "type": "module",
+  "description": "Lugus paper engine for BTC and ETH on Kraken.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/engine/*.test.ts"
+  }
+}
